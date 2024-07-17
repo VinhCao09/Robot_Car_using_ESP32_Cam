@@ -1,2 +1,2 @@
-# Robot-Car-using-ESP32-Cam
-Control the robot car via Wifi connection and monitor with a camera.
+# Robot Car using ESP32 Cam
+In this project, we are going to build an ESP32 Cam Surveillance Car—a practical and accessible starting point to start learning about remote-controlled and ESP32 projects. This project leverages the versatility of the ESP32 camera module, offering a budget-friendly, energy-efficient and easy-to-make solution. Designed with simplicity and functionality in mind, it's an ideal starting point for newcomers to start learning web controls and the WiFi functionality of ESP32.
