@@ -24,7 +24,8 @@ Bạn có thể tham khảo bài viết sau để hiểu về OTA và cách vậ
 
 ### Tại sao tôi lại dùng OTA?
 
-Không giống như Arduino, ESP32, ESP8266,... hay một số vi điều khển khác. ESP32 Cam không được tích hợp sẵn mạch nạp trong module mà có một module khác hỗ trợ cho việc nạp code gọi là FTDI adapter. Việc này gây sự khó khăn cho việc update code vì khi ta đã gắn ESP32 Cam vào hệ thống Robot Car thì lúc này việc tháo ra nạp code rồi gắn vào lại khá phức tạp. Vì vậy trong chương trình nạp code lần đầu tiên, mình đã sử dụng đoạn code gốc kết hợp với một đoạn mã để khởi tạo OTA. Sau đó, chúng ta triển khai các đoạn mã OTA trong tất cả các đoạn code cần nạp vào ESP32 qua mạng cục bộ
+Không giống như Arduino, ESP32, ESP8266,... hay một số vi điều khển khác. ESP32 Cam không được tích hợp sẵn mạch nạp trong module mà có một module khác hỗ trợ cho việc nạp code gọi là FTDI adapter. Việc này gây sự khó khăn cho việc update code vì khi ta đã gắn ESP32 Cam vào hệ thống Robot Car thì lúc này việc tháo ra nạp code rồi gắn vào lại khá phức tạp. Vì vậy trong chương trình nạp code lần đầu tiên, mình đã sử dụng đoạn code gốc kết hợp với một đoạn mã để khởi tạo OTA. Sau đó, chúng ta triển khai các đoạn mã OTA trong tất cả các đoạn code cần nạp vào ESP32 qua mạng cục bộ.
+
 *Lưu ý: Nếu không khai báo mã OTA trong code, chúng ta không thể upload code mới vào ESP32 qua mạng cục bộ được nữa.*
 
 ## Version Recommend
