@@ -82,7 +82,7 @@ Change the Pin configuration
 
 After uploading the code, you can access the same local network as the ESP32 Cam and access the IP address: `192.168.1.99`
 
-![images](https://github.com/VinhCao09/Robot_Car_using_ESP32_Cam/blob/main/images/6.jpg)
+![images](https://github.com/VinhCao09/Robot_Car_using_ESP32_Cam/blob/main/images/6.png)
 
 ## 🚀 About Me
 Hello 👋I am Vinh. I'm studying HCMC University of Technology and Education
