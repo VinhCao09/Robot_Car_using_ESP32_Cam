@@ -92,7 +92,15 @@ Sau khi nạp code lần đầu bằng dây cáp, trong bộ code này đã bao 
 
 Nếu muốn nạp code qua phương thức chứa OTA, bạn cần định nghĩa lại phân vùng. Khoảng 2MB sẽ được cấp để chúng ta có thể tải chương trình mã binary vào phân vùng này, sau khi nạp code sau, mã này sẽ được ESP32 Cam nạp vào bộ nhớ Flash và nó sẽ tự reset rồi tiến hành chạy lại đoạn code. 
 
+Sau lần nạp code thông qua kết nối vật lý, lúc này bạn có thể nhìn trên Arduino IDE có thiết bị mang IP 192.168.1.99, bạn có thể nạp code không dây qua địa chỉ IP này. Hãy đảm bảo chọn đúng loại bo nhé!
+![images](https://github.com/VinhCao09/Robot_Car_using_ESP32_Cam/blob/main/images/7.jpg)
 
+Sau đó, bạn hãy chia lại phân vùng
+![images](https://github.com/VinhCao09/Robot_Car_using_ESP32_Cam/blob/main/images/8.jpg)
+
+Tiến hành nhấn vào biểu tượng upload code và nhập password, ở lần đầu nạp code bằng dây, mình đã set password là admin. Nếu bạn có sự thay đổi mật khẩu code thì nhập đúng mật khẩu nhé!
+
+![images](https://github.com/VinhCao09/Robot_Car_using_ESP32_Cam/blob/main/images/9.jpg)
 
 ## 🚀 About Me
 Hello 👋I am Vinh. I'm studying HCMC University of Technology and Education
