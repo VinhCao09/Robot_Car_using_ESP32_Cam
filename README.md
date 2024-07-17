@@ -1,4 +1,4 @@
-# 🚙Robot Car using ESP32 Cam📷
+# 🚙Robot Car using ESP32 Cam. Upload code via OTA📷
 In this project, we are going to build an ESP32 Cam Surveillance Car—a practical and accessible starting point to start learning about remote-controlled and ESP32 projects. This project leverages the versatility of the ESP32 camera module, offering a budget-friendly, energy-efficient and easy-to-make solution. Designed with simplicity and functionality in mind, it's an ideal starting point for newcomers to start learning web controls and the WiFi functionality of ESP32.
 ## Components
 - ESP32-CAM Module camera
@@ -40,6 +40,7 @@ Upload the code to the Arduino
 `⚠️Board version esp32 3.0 or higher may cause ledc error. I use version 2.0.6 which is quite good`
 
 Change the wifi configuration
+
 ```bash
     // Connect to Wi-Fi
     WiFi.begin("VC Analog 2", "12356789");
@@ -49,7 +50,9 @@ Change the wifi configuration
     }
 ```
 Change the IP Static configuration 
+
 *Ở đây tôi sử dụng IP tĩnh là 192.168.1.99, điều này có nghĩa rằng EPS32 Cam sẽ được cấp địa chỉ IP tĩnh này thay vì IP động, Nếu không có đoạn mã này, ESP32 Cam được cấp IP động một cách ngẫu nhiên khiến việc kết nối trở nên khó khăn*
+
 ```bash
    // Static IP address configuration
     IPAddress local_IP(192, 168, 1, 99);
