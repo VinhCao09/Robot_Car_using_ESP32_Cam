@@ -84,6 +84,16 @@ After uploading the code, you can access the same local network as the ESP32 Cam
 
 ![images](https://github.com/VinhCao09/Robot_Car_using_ESP32_Cam/blob/main/images/6.png)
 
+## How to update via OTA?
+
+Sau khi nạp code lần đầu bằng dây cáp, trong bộ code này đã bao gồm cả đoạn mã hỗ trợ nạp OTA qua Wifi Local. Bạn cần chắc chắn rằng kết nối của ESP32 Cam và từ máy tính bạn vào wifi là chung một mạng. Bạn cần lưu ý sơ đồ sau để tránh nạp code lỗi. 
+
+![images](https://simplyexplained.com/uploads/2021-11-02-esp-idf-store-aws-iot-certificates-in-nvs-partition/esp32-factory-app-two-ota-definitions.svg)
+
+Nếu muốn nạp code qua phương thức chứa OTA, bạn cần định nghĩa lại phân vùng. Khoảng 2MB sẽ được cấp để chúng ta có thể tải chương trình mã binary vào phân vùng này, sau khi nạp code sau, mã này sẽ được ESP32 Cam nạp vào bộ nhớ Flash và nó sẽ tự reset rồi tiến hành chạy lại đoạn code. 
+
+
+
 ## 🚀 About Me
 Hello 👋I am Vinh. I'm studying HCMC University of Technology and Education
 
