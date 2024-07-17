@@ -10,13 +10,11 @@ In this project, we are going to build an ESP32 Cam Surveillance Car—a practic
 - Switch (ON/OFF)
 - 4 Wheel 2 Layer Robot Smart Car Chassis Kits with Speed Encoder for Arduino DIY
 
-
 ## Overview
 
 ![images](https://github.com/VinhCao09/Robot_Car_using_ESP32_Cam/blob/main/images/1.jpg)
 ![images](https://github.com/VinhCao09/Robot_Car_using_ESP32_Cam/blob/main/images/2.jpg)
 
-https://github.com/user-attachments/assets/8d89c5cc-9492-47b6-a333-1c21beff65bf
 ## Schematic
 ![images](https://github.com/VinhCao09/Robot_Car_using_ESP32_Cam/blob/main/images/4.jpg)
 
