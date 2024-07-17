@@ -8,7 +8,9 @@ In this project, we are going to build an ESP32 Cam Surveillance Car—a practic
 - Battery 18650 3.7V x2
 - BUZZER 5V 85dB
 - Switch (ON/OFF)
+- 4 Wheel 2 Layer Robot Smart Car Chassis Kits with Speed Encoder for Arduino DIY
 
-## 
+## Overview
+
 
 
