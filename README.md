@@ -49,7 +49,7 @@ Change the wifi configuration
         Serial.print(".");
     }
 ```
-Change the IP Static configuration 
+Change Static IP address configuration
 
 *Ở đây tôi sử dụng IP tĩnh là 192.168.1.99, điều này có nghĩa rằng EPS32 Cam sẽ được cấp địa chỉ IP tĩnh này thay vì IP động, Nếu không có đoạn mã này, ESP32 Cam được cấp IP động một cách ngẫu nhiên khiến việc kết nối trở nên khó khăn*
 
@@ -77,6 +77,12 @@ Change the Pin configuration
 #define LEDC_TIMER       0
     }
 ```
+
+## Deploy
+
+After uploading the code, you can access the same local network as the ESP32 Cam and access the IP address: `192.168.1.99`
+
+![images](https://github.com/VinhCao09/Robot_Car_using_ESP32_Cam/blob/main/images/6.jpg)
 
 ## 🚀 About Me
 Hello 👋I am Vinh. I'm studying HCMC University of Technology and Education
@@ -106,5 +112,8 @@ related Frameworks (Bootstrap)
 
 https://www.tiktok.com/@vinhcaoplay/video/7382913249139756306?lang=vi-VN
 
+## Datasheet
+
+ESP32 Cam: https://www.handsontec.com/dataspecs/module/ESP32-CAM.pdf 
 
 ![Logo](https://codingninja.asia/images/codeninjalogo.png)
