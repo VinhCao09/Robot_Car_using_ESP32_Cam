@@ -44,7 +44,7 @@ Change the wifi configuration
 
 ```bash
     // Connect to Wi-Fi
-    WiFi.begin("VC Analog 2", "12356789");
+    WiFi.begin("YOUR_SSID", "YOUR_PASSWORD");
     while (WiFi.status() != WL_CONNECTED) {
         delay(500);
         Serial.print(".");
