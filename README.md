@@ -76,7 +76,6 @@ Change the Pin configuration
 #define BUZZER           2
 #define LEDC_CHANNEL     0
 #define LEDC_TIMER       0
-    }
 ```
 
 ## Deploy
